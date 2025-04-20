@@ -20,21 +20,21 @@ A restaurant chatbot that will assist customers in placing orders for their pref
    ```bash
    git clone https://github.com/Abiodun001-world/restaurant-chatbot.git
    ```
-   cd restaurant-chatbot
-
-2. Install dependencies:
+     cd restaurant-chatbot
+   
+3. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Create a `.env` file in the root directory based on `.env.example`:
+4. Create a `.env` file in the root directory based on `.env.example`:
    ```
    PORT=3000
    PAYSTACK_SECRET_KEY=your_paystack_test_key
    NODE_ENV=development
    ```
 
-4. Start the development server:
+5. Start the development server:
    ```bash
    npm run dev
    ```
@@ -64,25 +64,22 @@ Use the following commands:
 
 ## Deployment
 
-Deployment
+# Deployment
 
-To deploy on Render:
+- To deploy on Render:
 
-Push the repository to GitHub.
+- Push the repository to GitHub.
 
-Create a new Web Service on Render, connect to the repository.
+- Create a new Web Service on Render, connect to the repository.
 
 Set environment variables:
-
+```
 PORT: 3000
-
 PAYSTACK_SECRET_KEY: Your Paystack test key
-
 NODE_ENV: production
-
-Set Build Command: npm install
-
-Set Start Command: npm start
+```
+- Set Build Command: npm install
+- Set Start Command: npm start
 
 Access the app at the provided Render URL here:
 ## License
